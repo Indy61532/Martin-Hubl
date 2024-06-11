@@ -1,10 +1,8 @@
 {
-  
-    "scripts": {
-      "build": "tailwindcss build src/style.css -o src/output.css",
-      "debug": "echo 'Tailwind build' && tailwindcss build src/style.css -o src/output.css"
-    },
-    "devDependencies": {
-      "tailwindcss": "^3.4.3"
-    }
+  "scripts": {
+    "build": "tailwindcss build src/style.css -o src/output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
   }
+}
